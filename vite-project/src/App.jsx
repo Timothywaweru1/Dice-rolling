@@ -1,16 +1,13 @@
 
 import './App.css'
-import Navbar from './components/Navbar'
-import Highlights from './components/Highlights'
-import Hero from './components/Hero'
+
+import Accordion from './components/accordion'
 
 function App() {
 
   return (
     <div>
-      <Navbar />
-      <Highlights />
-      <Hero />
+      <Accordion />
     </div>
   )
 }
